@@ -63,7 +63,7 @@ const Marriage = ({}) => {
                                 </div>
                                 <div className="flex flex-row pt-4">
                                     <p className="basis-3/3 p-5 text-justify">
-                                        In the magical village on Kanalia, the groom's birthplace, lies the old and unique church of Prophet Elias in witch the Marriage Ceremony will be held. The tradditional church, located at the outskirts of a forest, offers a spectacular view towards Thessaly's place.
+                                        In the magical village on Kanalia, the groom&apos;s birthplace, lies the old and unique church of Prophet Elias in witch the Marriage Ceremony will be held. The tradditional church, located at the outskirts of a forest, offers a spectacular view towards Thessaly&apos;s place.
                                     </p>
                                 </div>
                                 <div className="flex flex-row">
