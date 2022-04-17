@@ -16,7 +16,7 @@ const Marriage = ({}) => {
                         <div className="title pb-5">
                             <h2 className="font-thin text-center text-5xl text-gray-600 pb-10 pt-10">Now we are getting  Married!</h2>
                         </div>
-                        <div class="flex flex-row items-center">
+                        <div className="flex flex-row items-center">
                             <div className="basis-1/2 text-center">
                                 <h3 className="text-xl">21 August 2022</h3>
                             </div>
@@ -77,7 +77,7 @@ const Marriage = ({}) => {
                         <div className="title pb-5">
                             <h2 className="font-thin text-center text-5xl text-gray-600 pb-10 pt-10">...And then we are partying!</h2>
                         </div>
-                        <div class="flex flex-row items-center">
+                        <div className="flex flex-row items-center">
                             <div className="basis-1/2 flex-col border-r-2 border-solid border-gray-300">
                                 <div className="flex flex-row pb-4 pt-4 border-b-2 border-solid border-gray-300">
                                     <div className='basis-1/3 text-center'>
