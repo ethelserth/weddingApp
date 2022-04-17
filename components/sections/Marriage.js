@@ -115,7 +115,7 @@ const Marriage = ({}) => {
                                     </div>
                                     <h4 className="basis-2/3">
                                         <Link href="https://www.google.com/maps/place/Church+Prophet+Elias/@39.3954593,21.7970212,15z/data=!4m5!3m4!1s0x0:0xcad246f1b2d80176!8m2!3d39.3962762!4d21.7972823">
-                                            <a className="text-slate-800" target="_blank">Nevros Hotel Resort & Spa</a>
+                                            <a className="text-slate-800" target="_blank">Nevros Hotel Resort &apos; Spa</a>
                                         </Link>
                                     </h4>
                                 </div>
@@ -128,7 +128,7 @@ const Marriage = ({}) => {
                                     <p className="basis-3/3 p-5 text-justify">
                                         After the ceremony, join us for our wedding party that will take place in the amazing
                                         <Link href="https://www.nevros.gr/el/">
-                                            <a className="text-slate-800" target="_blank">Nevros Hotel Resort & Spa</a>
+                                            <a className="text-slate-800" target="_blank">Nevros Hotel Resort &apos; Spa</a>
                                         </Link>
                                         . There we will dance and laugh together until the next morning.
                                     </p>
