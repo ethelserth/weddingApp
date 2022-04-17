@@ -28,7 +28,7 @@ const RSVP = ({status, message, onValidated}) => {
     };
 
     return (
-        <section className="bg-slate-50">
+        <section className="bg-slate-50 mb-4">
             <div className="w-11/12 lg:w-5/12 mx-auto">
                 <div className="flex items-center justify-center">
                     <div className="container mx-auto w-full h-full">
@@ -93,8 +93,8 @@ const RSVP = ({status, message, onValidated}) => {
                                     />
                                     <label htmlFor="FNAME">Will you miss out?</label>
                                 </div>
-                                <div className='flex-col flex'>
-                                    <button style={{ fontSize: "2em", padding: 5 }} onClick={submit}>
+                                <div className='mt-2 flex-col flex w-5/12 bg-transparent hover:bg-slate-500 text-grey-700 font-semibold hover:text-white py-2 px-4 border border-slate-500 hover:border-transparent rounded'>
+                                    <button onClick={submit}>
                                         Submit
                                     </button>
                                 </div>

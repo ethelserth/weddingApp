@@ -67,7 +67,7 @@ const TimeLine = (props) => {
                                         </div>
                                         <div className="basis-1/2  justify-center text-center">
                                             <h3 className="mb-3 font-thin text-gray-800 text-2xl">2016 - 2019</h3>
-                                            <p className="font-thin text-lg leading-snug tracking-wide text-gray-900 text-opacity-100">Living the long distance relationship love.</p>
+                                            <p className="font-thin text-lg leading-snug tracking-wide text-gray-900 text-opacity-100">Living the long distance love.</p>
                                         </div>
                                     </div>
                                 </div>
@@ -111,7 +111,7 @@ const TimeLine = (props) => {
                                         </div>
                                         <div className="basis-1/2  justify-center text-center">
                                             <h3 className="mb-3 font-thin text-gray-800 text-2xl">05-02-2021</h3>
-                                            <p className="font-thin text-lg leading-snug tracking-wide text-gray-900 text-opacity-100">He propsed!<br/> She said yes! </p>
+                                            <p className="font-thin text-lg leading-snug tracking-wide text-gray-900 text-opacity-100">He proposed!<br/> She said yes! </p>
                                         </div>
                                     </div>
                                 </div>

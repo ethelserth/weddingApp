@@ -57,20 +57,20 @@ const Marriage = ({}) => {
                                     </div>
                                     <h4 className="basis-2/3">
                                         <Link href="https://www.google.com/maps/place/Church+Prophet+Elias/@39.3954593,21.7970212,15z/data=!4m5!3m4!1s0x0:0xcad246f1b2d80176!8m2!3d39.3962762!4d21.7972823">
-                                            <a className="text-slate-800" target="_blank">Chapel of Prophet Ilias, Kanalia Karditsas</a>
+                                            <a className="text-indigo-800" target="_blank">Chapel of Prophet Ilias, Kanalia Karditsas</a>
                                         </Link>
                                     </h4>
                                 </div>
                                 <div className="flex flex-row pt-4">
                                     <p className="basis-3/3 p-5 text-justify">
-                                        In the magical village on Kanalia, the groom&apos;s birthplace, lies the old and unique church of Prophet Elias in witch the Marriage Ceremony will be held. The tradditional church, located at the outskirts of a forest, offers a spectacular view towards Thessaly&apos;s place.
+                                        In the magical village off Kanalia, the groom&apos;s birthplace, lies the old and unique church of Prophet Elias in which the ceremony will be held. This traditional church, located at the outskirts of a forest, offers a spectacular view towards Thessaly.
                                     </p>
                                 </div>
                                 <div className="flex flex-row">
-                                    <p className="basis-3/3 p-5 text-justify">The village and the church is 14km from Karditsa. If you need directions click the link above.</p>
+                                    <p className="basis-3/3 p-5 text-justify">The village and the church is 14km from Karditsa. If you need directions click on the link above.</p>
                                 </div>
                                 <div className="flex flex-row">
-                                    <p className="basis-3/3 p-5 text-justify">There is space near the entrance, that you can park you caro.</p>
+                                    <p className="basis-3/3 p-5 text-justify">There is space near the entrance, that you can park you car.</p>
                                 </div>
                             </div>
                         </div>
@@ -89,7 +89,7 @@ const Marriage = ({}) => {
                                             className="basis-1/3"
                                         />
                                     </div>
-                                    <h4 className="basis-2/3 text-2xl">The Festivity</h4>
+                                    <h4 className="basis-2/3 text-2xl">The Party</h4>
                                 </div>
                                 <div className="flex flex-row pb-4 pt-4">
                                     <div className='basis-1/3 text-center'>
@@ -114,28 +114,28 @@ const Marriage = ({}) => {
                                         />
                                     </div>
                                     <h4 className="basis-2/3">
-                                        <Link href="https://www.google.com/maps/place/Church+Prophet+Elias/@39.3954593,21.7970212,15z/data=!4m5!3m4!1s0x0:0xcad246f1b2d80176!8m2!3d39.3962762!4d21.7972823">
-                                            <a className="text-slate-800" target="_blank">Nevros Hotel Resort &amp; Spa</a>
+                                        <Link href="https://www.google.com/maps/place/Nevros+Hotel+Resort+and+Spa/@39.2817974,21.7294522,17z/data=!3m1!4b1!4m8!3m7!1s0x13592f68aaf9d815:0xd5c7bc3314ee31e!5m2!4m1!1i2!8m2!3d39.2817974!4d21.7316409">
+                                            <a className="text-indigo-800" target="_blank">Nevros Hotel Resort &amp; Spa</a>
                                         </Link>
                                     </h4>
                                 </div>
                                 <div className="flex flex-row pt-4">
                                     <p className="basis-3/3 p-5 text-justify">
-                                        Did someone said Party? We did!
+                                        Did someone said party? We did!
                                     </p>
                                 </div>
                                 <div className="flex flex-row">
                                     <p className="basis-3/3 p-5 text-justify">
-                                        After the ceremony, join us for our wedding party that will take place in the amazing
+                                        After the ceremony, join our wedding party that will take place in the amazing 
                                         <Link href="https://www.nevros.gr/el/">
-                                            <a className="text-slate-800" target="_blank">Nevros Hotel Resort &amp; Spa</a>
+                                            <a className="text-indigo-800" target="_blank"> Nevros Hotel Resort &amp; Spa</a>
                                         </Link>
-                                        . There we will dance and laugh together until the next morning.
+                                        . We will dance and party together until the next morning.
                                     </p>
                                 </div>
                                 <div className="flex flex-row pt-4">
                                     <p className="basis-3/3 p-5 text-justify">
-                                        Nevros Hotel, is located at Neoxori in Lake Plastira.
+                                        Nevros Hotel, is located at Neoxori in Lake Plastira. Click the link above for directions.
                                     </p>
                                 </div>
                             </div>
