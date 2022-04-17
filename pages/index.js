@@ -2,8 +2,13 @@ import Hero from '../components/sections/Hero';
 import TimeLine from '../components/sections/TimeLine';
 import Marriage from '../components/sections/Marriage';
 import TrackVisibility from 'react-on-screen';
+import MailchimpSubscribe from "react-mailchimp-subscribe";
+import RSVP from "../components/sections/RSVP";
 
 export default function Home() {
+
+  const url =
+      "https://live.us14.list-manage.com/subscribe/post?u=39e5b609f70637a933548a958&amp;id=642619806c";
 
   return (
     <div className="main">
@@ -12,6 +17,18 @@ export default function Home() {
         <TimeLine />
       </TrackVisibility>
       <Marriage />
+      <MailchimpSubscribe
+          url={url}
+          render={({ subscribe, status, message }) => (
+            <RSVP
+              status={status}
+              message={message}
+              onValidated={formData => subscribe(formData)}
+            />
+          )}
+        />
     </div>
   )
 } 
+
+

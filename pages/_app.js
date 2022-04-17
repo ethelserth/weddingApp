@@ -6,7 +6,7 @@ export default function MyApp({ Component, pageProps }) {
   return (
      <React.Fragment>
         <Layout>
-          <Component {...pageProps} />;
+          <Component {...pageProps} />
         </Layout>
      </React.Fragment>
   );
