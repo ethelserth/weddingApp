@@ -14,3 +14,15 @@ a {
 * {
   box-sizing: border-box;
 }
+
+.hero-section{
+  background-image: url('../public/images/hero.jpg');
+}
+
+.bg-fixed{
+  background-attachment: fixed;
+}
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;

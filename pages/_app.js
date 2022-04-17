@@ -1,7 +1,13 @@
-import '../styles/globals.css'
+import React from 'react';
+import '../styles/globals.css';
+import Layout from '../components/Layout';
 
-function MyApp({ Component, pageProps }) {
-  return <Component {...pageProps} />
+export default function MyApp({ Component, pageProps }) {
+  return (
+     <React.Fragment>
+        <Layout>
+          <Component {...pageProps} />;
+        </Layout>
+     </React.Fragment>
+  );
 }
-
-export default MyApp
