@@ -2,7 +2,7 @@
 const Hero = ({}) => {
 
     return (
-            <div className="bg-fixed hero-section relative bg-contain overflow-auto">
+            <div className="bg-fixed hero-section relative lg:bg-contain overflow-auto">
                 <div className="bg-slate-900/70">
                     <div className="max-w-7xl mx-auto">
                         <div className="hero min-h-screen flex items-center justify-center">
