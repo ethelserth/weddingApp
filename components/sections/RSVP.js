@@ -93,7 +93,7 @@ const RSVP = ({status, message, onValidated}) => {
                                     />
                                     <label htmlFor="FNAME">Will you miss out?</label>
                                 </div>
-                                <div className='mt-2 flex-col flex w-5/12 bg-transparent hover:bg-slate-500 text-grey-700 font-semibold hover:text-white py-2 px-4 border border-slate-500 hover:border-transparent rounded'>
+                                <div className='mt-4 flex-col flex w-5/12 bg-transparent hover:bg-slate-500 text-grey-700 font-semibold hover:text-white py-2 px-4 border border-slate-500 hover:border-transparent rounded'>
                                     <button onClick={submit}>
                                         Submit
                                     </button>
