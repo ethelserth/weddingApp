@@ -69,7 +69,7 @@ const Area = ({}) => {
                                         towards the mountains. Plastiras Lake (were our party is taking place) is just 30 minutes
                                         drive away from the city center. Enjoy the scenery that in the past was hailed as &quot;Greece&apos;s Alps&quot;,
                                         take a stroll in the varius, traditional villages like Neoxori, Neraida and Kanalia or you can 
-                                        even ebrace your wild side and take a hike in the mountains, even enjoy a "lake-bike" tour in the lake.
+                                        even ebrace your wild side and take a hike in the mountains, even enjoy a &quot;lake-bike&quot; tour in the lake.
                                     </p>
                                 </div>
                                 <div className="flex flex-row pt-4">
