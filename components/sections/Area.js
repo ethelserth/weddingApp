@@ -25,7 +25,7 @@ const Area = ({}) => {
                             </div>
                         </div>
                         <div className="title pb-5">
-                            <h2 className="font-thin text-center text-5xl text-gray-600 pb-10 pt-10">You are comming? That's great!</h2>
+                            <h2 className="font-thin text-center text-5xl text-gray-600 pb-10 pt-10">You are comming? That&apos;s great!</h2>
                         </div>
                         <div className="flex lg:flex-row flex-col items-center">
                             <div className="basis-1/2 flex-col border-r-2 border-solid border-gray-300">
@@ -57,7 +57,7 @@ const Area = ({}) => {
                                 <div className="flex flex-row pt-4">
                                     <p className="basis-3/3 p-5 text-justify">
                                         The city of Karditsa is located ath the souther part of Thessaly plains. Also at the
-                                        center of Greece, thus the name "Karditsa" that loosely means heart. It is a relative
+                                        center of Greece, thus the name &quot;Karditsa&quot; that loosely means heart. It is a relative
                                         new city, small and cozy, with a lot of public spaces and very friendly denizens. Whether
                                         you are looking for coffee, drinks or a special restaurant, you will probably find everything
                                         here.
@@ -67,7 +67,7 @@ const Area = ({}) => {
                                     <p className="basis-3/3 p-5 text-justify">
                                         But if you want to really enjoy yourself, you shall live the city behind you and wander
                                         towards the mountains. Plastiras Lake (were our party is taking place) is just 30 minutes
-                                        drive away from the city center. Enjoy the scenery that in the past was hailed as "Greece's Alps",
+                                        drive away from the city center. Enjoy the scenery that in the past was hailed as &quot;Greece&apos;s Alps&quot;,
                                         take a stroll in the varius, traditional villages like Neoxori, Neraida and Kanalia or you can 
                                         even ebrace your wild side and take a hike in the mountains, even enjoy a "lake-bike" tour in the lake.
                                     </p>
