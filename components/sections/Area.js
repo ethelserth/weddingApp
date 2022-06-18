@@ -1,4 +1,7 @@
 import adventure from '../../public/images/location.png';
+import seeing from '../../public/images/binoculars.png';
+import drinks from '../../public/images/cheers.png';
+import eat from '../../public/images/tray.png';
 import  React, {useState} from 'react';
 import Image from 'next/image';
 import Link from "next/link";   //import this
@@ -25,7 +28,7 @@ const Area = ({}) => {
                             </div>
                         </div>
                         <div className="title pb-5">
-                            <h2 className="font-thin text-center text-5xl text-gray-600 pb-10 pt-10">You are comming? That&apos;s great!</h2>
+                            <h2 className="font-thin text-center text-5xl text-gray-600 pb-10 pt-10">You are coming? That&apos;s great!</h2>
                         </div>
                         <div className="flex lg:flex-row flex-col items-center">
                             <div className="basis-1/2 flex-col border-r-2 border-solid border-gray-300">
@@ -78,11 +81,11 @@ const Area = ({}) => {
                                     </p>
                                 </div>
                             </div>
-                            <div className="basis-1/2 text-center">
+                            <div className="basis-1/2 text-center w-full">
                                 <div className="flex flex-wrap">
                                     <div className="w-full">
-                                        <ul className="flex mb-0 list-none flex-wrap pt-3 pb-4 flex-col" role="tablist">
-                                            <li className="-mb-px mr-2 last:mr-0 flex-auto text-center">
+                                        <ul className="flex list-none flex-wrap pt-3 pb-4 flex-col" role="tablist">
+                                            <li className="mb-2 mr-2 last:mr-0 flex-auto text-center">
                                                 <a className={"px-5 py-3 block leading-normal text-2xl border-solid border-gray-300 " +
                                                     (openTab === 1
                                                         ? "border-t-2 border-b-2 border-r-2 rounded-r"
@@ -95,7 +98,16 @@ const Area = ({}) => {
                                                     data-toggle="tab"
                                                     href="#link1"
                                                     role="tablist"
-                                                >
+                                                >   
+                                                    <div className="pt-3 pr-5 inline-block">
+                                                        <Image
+                                                            src={seeing}
+                                                            alt="binoculars pic"
+                                                            width="30px"
+                                                            height="30px"
+                                                            className="basis-1/3"
+                                                        />
+                                                    </div>
                                                     Sightseeing
                                                 </a>
                                                 <div className={openTab === 1 ? "block" : "hidden"} id="link1">
@@ -133,7 +145,7 @@ const Area = ({}) => {
                                                     </div>
                                                 </div>
                                             </li>
-                                            <li className="-mb-px mr-2 last:mr-0 flex-auto text-center">
+                                            <li className="mb-2 mr-2 last:mr-0 flex-auto text-center">
                                                 <a className={"px-5 py-3 block leading-normal text-2xl border-b-2 border-solid border-gray-300 " +
                                                     (openTab === 2
                                                         ? "border-t-2 border-b-2 border-r-2 rounded-r"
@@ -147,6 +159,15 @@ const Area = ({}) => {
                                                     href="#link2"
                                                     role="tablist"
                                                 >
+                                                    <div className="pt-3 pr-5 inline-block">
+                                                        <Image
+                                                            src={drinks}
+                                                            alt="cheers pic"
+                                                            width="30px"
+                                                            height="30px"
+                                                            className="basis-1/3"
+                                                        />
+                                                    </div>
                                                     Cafes &amp; Bars
                                                 </a>
                                                 <div className={openTab === 2 ? "block" : "hidden"} id="link2">
@@ -189,7 +210,7 @@ const Area = ({}) => {
                                                     </div>
                                                 </div>
                                             </li>
-                                            <li className="-mb-px mr-2 last:mr-0 flex-auto text-center">
+                                            <li className="mb-2 mr-2 last:mr-0 flex-auto text-center">
                                                 <a className={"px-5 py-3 block leading-normal text-2xl border-b-2 border-solid border-gray-300 " +
                                                     (openTab === 3
                                                         ? "border-t-2 border-b-2 border-r-2 rounded-r"
@@ -202,7 +223,16 @@ const Area = ({}) => {
                                                     data-toggle="tab"
                                                     href="#link3"
                                                     role="tablist"
-                                                >
+                                                >   
+                                                    <div className="pt-3 pr-5 inline-block">
+                                                        <Image
+                                                            src={eat}
+                                                            alt="restaurant pic"
+                                                            width="30px"
+                                                            height="30px"
+                                                            className="basis-1/3"
+                                                        />
+                                                    </div>
                                                     Restaurants
                                                 </a>
                                                 <div className={openTab === 3 ? "block" : "hidden"} id="link3">
@@ -228,7 +258,7 @@ const Area = ({}) => {
                                                             </Link>
                                                         </div>
                                                         <div className="px-1 py-1">
-                                                            <Link href="https://www.google.com/maps/place/Chalilis+V+Kardoulas+a+O.E./@39.4278796,21.6619598,17z/data=!3m1!4b1!4m5!3m4!1s0x13593b2b56e41061:0x7f6c70cf553d8d84!8m2!3d39.427878!4d21.6641371">
+                                                            <Link href="https://www.google.com/maps/place/%CE%9A%CE%A4%CE%97%CE%9C%CE%91+%CE%A7%CE%91%CE%9B%CE%99%CE%9B%CE%97/@39.4199627,21.7633105,17z/data=!3m1!4b1!4m5!3m4!1s0x135926a89bcc9419:0xeaaea1a6e943d6c3!8m2!3d39.4199335!4d21.7655011">
                                                                 <a className="text-indigo-800" target="_blank">Chalilis (near Charma village)</a>
                                                             </Link>
                                                         </div>

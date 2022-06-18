@@ -5,6 +5,7 @@ import TrackVisibility from 'react-on-screen';
 import MailchimpSubscribe from "react-mailchimp-subscribe";
 import RSVP from "../components/sections/RSVP";
 import Area from '../components/sections/Area';
+import Contact from '../components/sections/Contact';
 
 export default function Home() {
 
@@ -29,6 +30,7 @@ export default function Home() {
         )}
       />
       <Area />
+      <Contact />
     </div>
   )
 } 

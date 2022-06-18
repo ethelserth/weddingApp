@@ -18,7 +18,7 @@ const Marriage = ({}) => {
                         </div>
                         <div className="flex lg:flex-row flex-col items-center">
                             <div className="basis-1/2 text-center">
-                                <h3 className="text-xl">21 August 2022</h3>
+                                <h3 className="text-xl hidden md:block">21 August 2022</h3>
                             </div>
                             <div className="basis-1/2 flex-col border-l-2 border-solid border-gray-300">
                                 <div className="flex flex-row pb-4 pt-4 border-b-2 border-solid border-gray-300">
@@ -138,9 +138,18 @@ const Marriage = ({}) => {
                                         Nevros Hotel, is located at Neoxori in Lake Plastira. Click the link above for directions.
                                     </p>
                                 </div>
+                                <div className="flex flex-row pt-4">
+                                    <p className="basis-3/3 p-5 text-justify">
+                                        If you need accommodation and Nevros is full booked, 
+                                        <Link href="https://www.google.com/maps/place/Anth%C3%A9mion/@39.2807711,21.7306773,15z/data=!4m2!3m1!1s0x0:0x2c1f91a8a2e384c3?sa=X&ved=2ahUKEwi-hfb087b4AhWZSfEDHTEfAqkQ_BJ6BAhUEAU">
+                                            <a className="text-indigo-800" target="_blank"> Anthemion</a>
+                                        </Link> 
+                                        is an excellent hotel, within walking distance.
+                                    </p>
+                                </div>
                             </div>
                             <div className="basis-1/2 text-center">
-                                <h3 className="text-xl">21 August 2022</h3>
+                                <h3 className="text-xl hidden md:block">21 August 2022</h3>
                             </div>
                         </div>
                     </div>

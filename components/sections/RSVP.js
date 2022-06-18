@@ -28,7 +28,7 @@ const RSVP = ({status, message, onValidated}) => {
     };
 
     return (
-        <section className="bg-slate-50 mb-4">
+        <section className="bg-gray-100 pb-10 mt-4 mb-4">
             <div className="w-11/12 lg:w-5/12 mx-auto">
                 <div className="flex items-center justify-center">
                     <div className="container mx-auto w-full h-full">
