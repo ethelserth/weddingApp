@@ -135,7 +135,7 @@ const Marriage = ({}) => {
                                 </div>
                                 <div className="flex flex-row pt-4">
                                     <p className="basis-3/3 p-5 text-justify">
-                                        Nevros Hotel, is located at Neoxori in Lake Plastira. Click the link above for directions.
+                                        Nevros Hotel, is located at Neoxori in Lake Plastira. Click the link above for directions and other usefull informations if you plan to stay at the hotel.
                                     </p>
                                 </div>
                                 <div className="flex flex-row pt-4">
