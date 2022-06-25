@@ -144,7 +144,7 @@ const Marriage = ({}) => {
                                         <Link href="https://www.google.com/maps/place/Anth%C3%A9mion/@39.2807711,21.7306773,15z/data=!4m2!3m1!1s0x0:0x2c1f91a8a2e384c3?sa=X&ved=2ahUKEwi-hfb087b4AhWZSfEDHTEfAqkQ_BJ6BAhUEAU">
                                             <a className="text-indigo-800" target="_blank"> Anthemion</a>
                                         </Link> 
-                                        is an excellent hotel, within walking distance.
+                                         is an excellent hotel, within walking distance.
                                     </p>
                                 </div>
                             </div>
