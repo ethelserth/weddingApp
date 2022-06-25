@@ -26,7 +26,7 @@ a {
 
 @media only screen and (max-width: 1200px){
   .bg-fixed.hero-section{
-    background-position-x: -1100px;
+    background-position-x: 97%;
   }
 }
 
