@@ -52,27 +52,26 @@ const Area = ({}) => {
                                 </div>
                                 <div className="flex flex-row">
                                     <p className="basis-3/3 p-5 text-justify">
-                                        While you are in Karditsa for the wedding, feel free too explore
-                                        our beautifull area. From endless plains to wild mountains, the region 
-                                        have a lot of amazing places for you to Discover.
+                                    While you are in Karditsa for the wedding, feel free to explore our beautiful area. 
+                                    From endless plains to wild mountains, the region has a lot of amazing places for you to discover.
                                     </p>
                                 </div>
                                 <div className="flex flex-row pt-4">
                                     <p className="basis-3/3 p-5 text-justify">
-                                        The city of Karditsa is located ath the souther part of Thessaly plains. Also at the
-                                        center of Greece, thus the name &quot;Karditsa&quot; that loosely means heart. It is a relative
-                                        new city, small and cozy, with a lot of public spaces and very friendly denizens. Whether
-                                        you are looking for coffee, drinks or a special restaurant, you will probably find everything
-                                        here.
+                                    The city of Karditsa is located in the southern part of Thessaly plains but also in the center of Greece,
+                                     thus the name &quot;Karditsa&quot; that means little heart. It is a relatively new city,
+                                      small and cozy, with a lot of public spaces and very friendly residents. 
+                                    Whether you are looking for coffee, drinks or a special restaurant, you will probably find everything here.
                                     </p>
                                 </div>
                                 <div className="flex flex-row pt-4">
                                     <p className="basis-3/3 p-5 text-justify">
-                                        But if you want to really enjoy yourself, you shall live the city behind you and wander
-                                        towards the mountains. Plastiras Lake (were our party is taking place) is just 30 minutes
-                                        drive away from the city center. Enjoy the scenery that in the past was hailed as &quot;Greece&apos;s Alps&quot;,
-                                        take a stroll in the varius, traditional villages like Neoxori, Neraida and Kanalia or you can 
-                                        even ebrace your wild side and take a hike in the mountains, even enjoy a &quot;lake-bike&quot; tour in the lake.
+                                    But if you want to really enjoy yourself, leave the city behind you and head towards the 
+                                    mountains. Plastiras Lake (where our party is taking place) is just a 30-minute drive 
+                                    away from the city center. Enjoy the scenery that in the past was 
+                                    hailed as &quot;Greece's Alps&quot;, take a stroll in the various, traditional villages 
+                                    like Neochori, Neraida and Kanalia or you can even 
+                                    ebrace your wild side and take a hike in the mountains, even enjoy a &quot;lake-bike&quot; tour in the lake.
                                     </p>
                                 </div>
                                 <div className="flex flex-row pt-4">
@@ -174,7 +173,7 @@ const Area = ({}) => {
                                                     <div className="text-center p-4 flex flex-col">
                                                         <div className="px-1 py-1">
                                                             <Link href="https://www.google.com/maps/place/Cadillac+Records+Cocktail+Bar/@39.364724,21.9227053,17z/data=!3m1!4b1!4m5!3m4!1s0x1358d90c5d8e8c83:0xc42d9a44b2e68dde!8m2!3d39.364724!4d21.924894">
-                                                                <a className="text-indigo-800" target="_blank">Cadilac Records Coctail Bar (Karditsa)</a>
+                                                                <a className="text-indigo-800" target="_blank">Cadillac Records Coctail Bar (Karditsa)</a>
                                                             </Link>                                                            
                                                         </div>
                                                         <div className="px-1 py-1">
@@ -249,7 +248,7 @@ const Area = ({}) => {
                                                         </div>                                                        
                                                         <div className="px-1 py-1">
                                                             <Link href="https://www.google.com/maps/place/La+Madonnina/@39.3658753,21.9221449,17z/data=!3m1!4b1!4m5!3m4!1s0x1358d9dec4e80a13:0x7f271aa816dfbf9f!8m2!3d39.3658753!4d21.9243336">
-                                                                <a className="text-indigo-800" target="_blank">La Maddonina (Karditsa)</a>
+                                                                <a className="text-indigo-800" target="_blank">La Madonnina (Karditsa)</a>
                                                             </Link>
                                                         </div>
                                                         <div className="px-1 py-1">

@@ -25,7 +25,7 @@ const Contact = ({}) => {
                                     </p>
 
                                     <p className="mb-2 text-sm">
-                                        IBAN : <strong>GR59 0171 2440 4414 3805 598</strong>
+                                        IBAN : <strong>GR59 0171 2440 4414 3805 598</strong> - (Piraeus bank)
                                     </p>
                                     
                                     <hr></hr>

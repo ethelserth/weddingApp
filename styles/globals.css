@@ -23,6 +23,14 @@ a {
   background-attachment: fixed;
 }
 
+
+@media only screen and (max-width: 1200px){
+  .bg-fixed.hero-section{
+    background-position-x: -1100px;
+  }
+}
+
+
 @tailwind base;
 @tailwind components;
 @tailwind utilities;

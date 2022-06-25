@@ -2,8 +2,8 @@
 const Hero = ({}) => {
 
     return (
-            <div className="bg-fixed hero-section relative lg:bg-contain overflow-auto">
-                <div className="bg-slate-900/70">
+            <div className="bg-fixed hero-section bg-cover relative overflow-auto">
+                <div className="bg-slate-900/70">  
                     <div className="max-w-7xl mx-auto">
                         <div className="hero min-h-screen flex items-center justify-center">
                             <div className="hero-content text-center text-neutral-content">
